@@ -4,22 +4,102 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Magna's Portfolio</title>
-        <link rel = "stylesheet" href = ".index/css" />
+        <link rel = "stylesheet" href = "./resources/css/index.css" type = "text/css" />
+        <script src="https://kit.fontawesome.com/13bef65872.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
         <nav>
-            <h2 id= "logo">Magnarai Huangdinata</h2>
+            <h2 id = "logo">Magnarai Huangdinata</h2>
             <ul>
                 <li class = "navigation-item"><a href = "#about-me">About Me</a></li>
                 <li class = "navigation-item"><a href = "#projects">Projects</a></li>
                 <li class = "navigation-item"><a href = "#skills">Skills</a></li>
+                <li class = "navigation-item"><a href = "#hobbies">Hobbies</a></li>
                 <li class = "navigation-item"><a href = "/contact.html">Contact</a></li>
             </ul>
         </nav>
 
         <main>
-            
+            <section id = "about-me">
+                <div class = "about-me-container">
+                    <div class = "about-me-text-container">
+                        <h2>About Me</h2>
+                        <p>
+                            Hi! I'm Magnarai Huangdinata, you can call me Magna.
+                        </p>
+                        <p>
+                            I'm currently making my first mini portfolio project website
+                            about myself. I will put all the details about projects that
+                            I have done before, my skills, my hobbies and also my contact
+                            if you want to reach out to me.
+                        </p>
+                        <p>
+                            If you have a little bit of time, please take a look at my website
+                            and feel free to give feedbacks to my new website. Thank you!
+                        </p>
+                    </div>
+                    <img src = "resources/Photo.JPG" alt = "A photo of Magnarai Huangdinata" class = "portrait" />
+                </div>
+            </section>
+
+            <section id = "projects">
+                <h2>Projects</h2>
+                <details class = "project">
+                    <summary class = "project-title">
+                        <h3>LeadMind Prototoype</h3>
+                    </summary>
+                        <img src = "resources/Screenshot Lead Mind.png" alt = "The prototype of LeadMind" class = "project-image" />
+                        <p class = "project-description">
+                            The prototype of LeadMind application for mobile phone.
+                        </p>
+                </details>
+                <details class = "project">
+                    <summary class = "project-title">
+                        <h3>Thesis Journal</h3>
+                    </summary>
+                        <img src = "resources/Screenshot Journal Thesis.png" alt = "The image of Magna's thesis journal" class = "project-image" />
+                        <p class = "project-description">
+                            Magnarai Huangdinata's Thesis Journal.
+                        </p>
+                </details>
+                <details class = "project">
+                    <summary class = "project-title">
+                        <h3>Form Registration</h3>
+                    </summary>
+                        <img src = "resources/Screenshot Form Registration.png" alt = "Blank Registration Form" class = "project-image" />
+                        <p class = "project-description">
+                            Empty Registration Form.
+                        </p>
+                </details>
+            </section>
+
+            <section id = "skills">
+                <h2>Skills</h2>
+                <div id = "skills-container">
+                    <i class = "fa-brands fa-html5"></i>
+                    <i class= "fa-brands fa-css3-alt"></i>
+                    <i class= "fa-brands fa-js"></i>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-git"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-chrome"></i>
+                </div>
+            </section>
+
+            <section id = "interests">
+                <h2>Interests</h2>
+                <div id = "interests-container">
+                    <ul>
+                        <li>Basketball</li>
+                        <li>Movies</li>
+                        <li>Programming</li>
+                    </ul>
+                </div>
+            </section>
         </main>
+
+        <footer>Made by Magnarai Huangdinata</footer>
     </body>
+    <script src = "main.js"></script>
 </html>
