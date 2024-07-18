@@ -182,27 +182,18 @@ footer {
     nav {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding-left: 1rem;
+        align-items: center;
     }
 
     .navigation-items {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        justify-content: center;
         padding: 0;
-        width: 100%;
     }
 
     .navigation-item {
-        margin: 5px 0;
-        width: 100%;
-    }
-
-    .navigation-item a {
-        width: 100%;
-        display: block;
-        padding: 10px 0;
+        margin: 0 10px;
     }
 
     nav h2,
