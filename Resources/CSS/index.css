@@ -196,8 +196,16 @@ footer {
         margin: 0 10px;
     }
 
-    h2 {
-        font-size: 10px;
+    nav h2,
+    main h2,
+    footer h2 {
+        font-size: 1.2rem;
+    }
+
+    nav p,
+    main p,
+    footer p {
+        font-size: 0.9rem;
     }
 
     #logo {
