@@ -199,13 +199,13 @@ footer {
     nav h2,
     main h2,
     footer h2 {
-        font-size: 1.2rem;
+        font-size: 10px;
     }
 
     nav p,
     main p,
     footer p {
-        font-size: 0.9rem;
+        font-size: 10px;
     }
 
     #logo {
