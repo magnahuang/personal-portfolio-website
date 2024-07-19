@@ -205,6 +205,19 @@ footer {
         padding: 10px 0;
     }
 
+    section {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .about-me-container, 
+    .projects-section, 
+    .skills-section, 
+    .interests-section, 
+    #contact {
+        padding: 10px;
+    }
+
     nav h2,
     main h2,
     footer h2 {
