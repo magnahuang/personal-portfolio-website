@@ -206,8 +206,8 @@ footer {
     }
 
     section {
-        margin-bottom: 5px;
-        padding: 5px;
+        margin-bottom: 1px;
+        padding: 1px;
     }
 
     .about-me-container, 
@@ -231,7 +231,7 @@ footer {
     }
 
     #logo {
-        font-size: 2em;
+        font-size: 15px;
     }
 
     .about-me-container {
