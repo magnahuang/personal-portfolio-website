@@ -206,8 +206,8 @@ footer {
     }
 
     section {
-        margin-bottom: 1px;
-        padding: 1px;
+        margin-bottom: 3px;
+        padding: 3px;
     }
 
     .about-me-container, 
@@ -218,20 +218,8 @@ footer {
         padding: 10px;
     }
 
-    nav h2,
-    main h2,
-    footer h2 {
-        font-size: 1.2rem;
-    }
-
-    nav p,
-    main p,
-    footer p {
-        font-size: 0.9rem;
-    }
-
     #logo {
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .about-me-container {
