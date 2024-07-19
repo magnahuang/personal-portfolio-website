@@ -206,8 +206,8 @@ footer {
     }
 
     section {
-        margin-bottom: 10px;
-        padding: 10px;
+        margin-bottom: 5px;
+        padding: 5px;
     }
 
     .about-me-container, 
@@ -232,7 +232,6 @@ footer {
 
     #logo {
         font-size: 2em;
-        text-align: center;
     }
 
     .about-me-container {
